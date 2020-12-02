@@ -1,0 +1,35 @@
+.input-block{
+    position: relative;
+    /* margin-left: 250px;
+    margin-right: 250px; */
+}
+
+.input-block label{
+    font-size: 1.4em;
+}
+
+.input-block + .input-block{
+    margin-top: 1.4em;
+}
+
+.input-block input{
+    width: 450px;
+    height: 2em;
+    margin-top:14px;
+    border-radius: 0.8em;
+    background: var(--color-input-background);
+    border: 1px solid var(--bg-color-view);
+    outline: 0;
+    padding: 0 1.6rem;
+    font: 1.6rem Archivo;
+}
+
+.input-block:focus-within::after{
+    width:96%;
+    height: 2px;
+    content: '';
+    background: var(--bg-color-view);
+    position: absolute;
+    left: 1em;
+    bottom: 0;
+}
