@@ -1,0 +1,21 @@
+.content-page-crud{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 100px 50px 100px;
+}
+
+.content-page-crud button{
+    position: relative;
+    color: white;
+    background-color: var(--bg-color-new-item);
+    border-radius: 8px;
+    outline: 0;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.content-page-crud button:hover{
+    opacity: 0.8;
+    transition: 400ms;
+}
