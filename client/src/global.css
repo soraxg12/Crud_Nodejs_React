@@ -1,0 +1,20 @@
+:root {
+    --bg-color-view: #77C47E;
+    --bg-color-edit:#F1B054;
+    --bg-color-delete:#D95450;
+    --bg-color-new-item:#337AB7;
+    --bg-color-header:#222222;
+    --bg-color-container-primary:#ffffff;
+    --bg-color-container-second:#f9f9f9;
+    --text-color-second:#2B3542;
+    --text-color-third:#A2BFD9;
+    
+    font-family: 'Roboto', sans-serif;
+
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
