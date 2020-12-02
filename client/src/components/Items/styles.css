@@ -1,0 +1,67 @@
+.items-content:nth-child(odd){
+    background-color: #f5f5f5;
+}
+
+.item-model{
+    display: flex;
+    justify-content: space-around;
+    border-top: 1px solid black;
+    padding: 10px;
+}
+
+.item-model p{
+    display: flex;
+    text-align: center;
+    width: 20%;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-model p button{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.buttons-cotent,input{
+    display: flex;
+    justify-content: space-around;
+    width: 20%;
+    
+}
+
+.item-model input{
+    width: 16%;
+    border-radius: 8px;
+    outline: 0;
+    border: 2px solid var(--bg-color-header);
+}
+
+.buttons-cotent button{
+    padding: 10px;
+    outline: 0;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons-cotent button:hover{
+    opacity: 0.8;
+    transform: 400ms;
+}
+
+.button-edit{
+    background-color: var(--bg-color-edit);
+}
+
+.button-delete{
+    background-color: var(--bg-color-delete);
+}
+
+.button-Confirm{
+    background-color: var(--bg-color-view);
+}
