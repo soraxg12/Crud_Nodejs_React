@@ -1,0 +1,11 @@
+.footer{
+    position: absolute;
+    bottom: 0;
+    padding: 10px;
+    background-color: var(--bg-color-header);
+    width: 100vw;
+}
+
+.footer p{
+    color: var(--bg-color-container-primary);
+}
