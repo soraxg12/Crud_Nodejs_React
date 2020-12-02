@@ -1,0 +1,13 @@
+.render-items-title{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+
+.render-items-title p{
+    width: 20%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
