@@ -1,0 +1,29 @@
+.add-new-items{
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+}
+
+.add-new-items input{
+    padding: 10px;
+    width: 16%;
+    border-radius: 8px;
+    border: 2px solid var(--bg-color-header);
+    outline: 0;
+}
+
+.add-new-items button{
+    margin-right: 30px;
+    color: white;
+    background-color: var(--bg-color-view);
+    border-radius: 8px;
+    border: none;
+    padding: 0 10px 0 10px;
+    outline: 0;
+}
+
+.add-new-items button:hover{
+    opacity: 0.8;
+    transition: 400ms;
+    cursor: pointer;
+}
